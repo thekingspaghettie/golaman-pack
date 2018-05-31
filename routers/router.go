@@ -5,7 +5,6 @@ import (
 
 func InitRoutes() *mux.Router {
 	router := mux.NewRouter()
-	router = StudentRoutes(router)
 	router = UserRoutes(router)
 	return router
 }
